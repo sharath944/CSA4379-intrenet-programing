@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Home Page for Car Repair and Maintainance Website">
+    <meta name="author" content="Maleeha Fatima">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CarMAN-Contact</title>
+    <!-- Icon -->
+        <link rel="shortcut icon" href="./Asserts/Images/icon.png" type="image/x-icon">
+
+    <!-- External CSS -->
+        <link rel="stylesheet" href="style.css">
+
+    <!-- Animation - AoS - CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Bootstrap Icon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body class="Contact-body">
+    <!-- NavBar Start -->
+    <!-- Nav-bar Links Start -->
+    <nav class="navigation-bar navbar navbar-expand-lg sticky-top bg-dark bg-opacity-75">
+      <div class="container-fluid text-center mx-3">
+        <a class="navbar-brand text-white fw-bold fs-3" href="./index.html">
+          <img src="./Asserts/Images/logo.png" alt="Logo" width="60" class="d-inline-block">
+          Car<span style="color: rgb(210, 43, 43);">MAN</span>
+        </a>
+        <button class="navbar-toggler bg-dark-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-bold nav-underline">
+            <li class="nav-item dropdown mx-1">
+              <a class="nav-link dropdown-toggle text-white active" href="index.html" aria-current="page" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Home
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./index.html">Visit our Homepage</a></li>
+                <li><a class="dropdown-item" href="./index.html#our-story">Our Story</a></li>
+                <li><a class="dropdown-item" href="./index.html#why-choose-us">Why we're the right fit?</a></li>
+                <li><a class="dropdown-item" href="./index.html#track">Track</a></li>
+                <li><a class="dropdown-item" href="./index.html#highlights">Our Highlights</a></li>
+                <li><a class="dropdown-item" href="./index.html#testimonials">Testimonials</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="./contact.html#contact-connect-cards">Connect with a Click</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-1">
+              <a class="nav-link dropdown-toggle text-white" href="./services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./services.html">All Services</a></li>
+                <li><a class="dropdown-item" href="./services.html#services-engine-repairs">Engine Repairs</a></li>
+                <li><a class="dropdown-item" href="./services.html#services-brake">Brake Services</a></li>
+                <li><a class="dropdown-item" href="./services.html#services-tire-rotation">Tire rotation</a></li>
+                <li><a class="dropdown-item" href="./services.html#services-suspension">Suspension Maintenance</a></li>
+                <li><a class="dropdown-item" href="./services.html#services-coolant">Coolant System Services</a></li>
+                <li><a class="dropdown-item" href="./services.html#services-electrical">Electical System Repairs</a></li>
+                <li><a class="dropdown-item" href="./services.html#services-wheel-align">Wheel Alignment</a></li>
+                <li><a class="dropdown-item" href="./services.html#services-battery">Battery Services</a></li>
+                <li><a class="dropdown-item" href="./services.html#services-exhaust">Exhaust System Maintenance</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="./services.html#FAQ">Query Hub</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link text-white" href="./unoriginals.html">The Unoriginals</a>
+            </li>
+            <li class="nav-item dropdown mx-1">
+              <a class="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Fix it Yourself
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./troubleshoot.html">Troubleshooting Guide</a></li>
+                <li><a class="dropdown-item" href="./blog.html">Blog</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link text-white" href="./contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <div class="nav-bar-end d-flex align-items-center">
+            <a class="btn btn-outline-light border-3 border-light mx-4" href="#exampleModal" data-bs-toggle="modal">Book an Appointment</a>
+            <a class="nav-sign-in nav-link text-white me-3 fs-4" href="./log-in.html">
+              <i class="bi bi-person-fill"></i>
+            </a>
+            <a class="nav-cart nav-link text-white me-3 fs-4" href="./cart.html">
+              <i class="bi bi-car-front"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav-bar Links End -->
+     <!-- Book an Appointment Start -->
+     <!-- Modal -->
+     <section class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content text-white book-appointment border border-white">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Request a <span class="text-danger">Callback</span></h1>
+            <button type="button" class="btn-close bg-light rounded-circle" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form class="row g-3">
+              <div class="col-md-12">
+                <input type="text" class="form-control" id="inputName" placeholder="Name">
+              </div>
+              <div class="col-md-12">
+                <input type="text" class="form-control" id="inputVehicleDetails" placeholder="Vehicle Details">
+              </div>
+              <div class="col-12">
+                <input type="tel" class="form-control" id="inputPhone" placeholder="Phone Number">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-light text-dark" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-danger text-white">SUBMIT</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- Book an Appointment End -->
+
+    <!-- Banner Start -->
+     <section class="contact-banner position-relative" id="contact-banner">
+        <img src="./Asserts/Images/contact-page-banner-lg.jpg" alt="Banner" class="img-fluid">
+        <h3 class="text-white fw-bold position-absolute top-50 start-50 translate-middle">CONTACT US</h3>
+     </section>
+    <!-- Banner End -->
+
+    <!-- Contact cards Start -->
+     <section class="container-fluid bg-dark bg-opacity-10" id="contact-cards">
+        <div class="row">
+            <!-- Address -->
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center my-3 py-5" data-aos="fade-right">
+                <h1 class="text-danger"><i class="bi bi-pin-map"></i></h1>
+                <h3 class="">Address</h3>
+                <p class="text-black-50">Sector 123, street No.45, Some-xx Road, <br>Opposite a landmark, KPHB Phase-3, <br>Hyderabad, Telangana - 5000XX </p>
+            </div>
+            <!-- Timings -->
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center my-3 py-5">
+                <h1 class="text-danger"><i class="bi bi-calendar4-week"></i></h1>
+                <h3 class="">Time</h3>
+                <p class="text-black-50">6 am - 11 pm</p>
+            </div>
+            <!-- Phone and Social Media -->
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 text-center my-3 py-5" data-aos="fade-left">
+                <h1 class="text-danger"><i class="bi bi-router"></i></h1>
+                <h3 class="">Social Media</h3>
+                <button type="button" class="btn btn-outline-danger mx-1 border-0"><i class="bi bi-facebook"></i></button>
+                <button type="button" class="btn btn-outline-danger mx-1 border-0"><i class="bi bi-instagram"></i></button>
+                <button type="button" class="btn btn-outline-danger mx-1 border-0"><i class="bi bi-messenger"></i></button>
+                <button type="button" class="btn btn-outline-danger mx-1 border-0"><i class="bi bi-snapchat"></i></button>
+                <button type="button" class="btn btn-outline-danger mx-1 border-0"><i class="bi bi-threads-fill"></i></button>
+                <button type="button" class="btn btn-outline-danger mx-1 border-0"><i class="bi bi-twitter-x"></i></button>
+            </div>
+        </div>
+     </section>
+    <!-- Contact cards End -->
+
+    <!-- Map and Contact Form Start -->
+     <section class="map-contactform container" id="contact-map-and-form" >
+        <div class="row align-items-center my-5">
+            <!-- Map -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7610.857357304343!2d78.38779904105448!3d17.48703838366877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb918dd39c3e3b%3A0xc2b8bc97cd40c84!2sK%20P%20H%20B%20Phase%203%2C%20Kukatpally%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1721938634565!5m2!1sen!2sin" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!-- Contact Form -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6" data-aos="zoom-in">
+                <!-- Form Header -->
+                 <h1 class="px-5 text-danger text-opacity-75">Get in Touch</h1>
+                <!-- Form -->
+                <form class="row g-3 p-5">
+                    <div class="col-12">
+                      <input type="text" class="form-control focus-ring text-decoration-none border rounded-2" id="inputName" placeholder="Name" style="--bs-focus-ring-color: rgba(var(--bs-danger-rgb), .25)">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control focus-ring text-decoration-none border rounded-2" id="inputEmail" placeholder="E-mail" style="--bs-focus-ring-color: rgba(var(--bs-danger-rgb), .25)">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="tel" class="form-control focus-ring text-decoration-none border rounded-2" id="inputPhone" placeholder="Phone Number" style="--bs-focus-ring-color: rgba(var(--bs-danger-rgb), .25)">
+                    </div>
+                    <div class="col-12">
+                      <input type="text" class="form-control focus-ring text-decoration-none border rounded-2" id="inputModel" placeholder="Your Car Model Details" style="--bs-focus-ring-color: rgba(var(--bs-danger-rgb), .25)">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control focus-ring text-decoration-none border rounded-2" id="exampleMessage" rows="3" placeholder="Your Message" style="--bs-focus-ring-color: rgba(var(--bs-danger-rgb), .25)"></textarea>
+                      </div>
+                    <div class="d-grid col-12">
+                      <button type="submit" class="btn rounded-0 bg-danger bg-opacity-75 fs-5 py-2 text-white fw-bold">SUBMIT</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+     </section>
+    <!-- Map and Contact Form End -->
+
+    <!-- Information Cards Start -->
+     <section class="contact-info-card container-fluid bg-dark bg-opacity-10 p-5" id="contact-connect-cards">
+        <div class="row px-5">
+            <!-- Chat With Us Card -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="card py-2">
+                    <h1 class="text-danger m-3"><i class="bi bi-chat-square-text"></i></h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Chat with Us</h5>
+                      <p class="card-hover-text pb-3">Let's talk! Reach out via chat for prompt support and personalized assistance.</p>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </div>
+            </div>
+            <!-- Email Us Card -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3" data-aos="zoom-out" data-aos-duration="1000">
+                <div class="card py-2">
+                    <h1 class="text-danger m-3"><i class="bi bi-reply"></i></h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Email Us</h5>
+                      <p class="card-hover-text">We're just an email away! Contact us for assistance, feedback, or any inquiries you might have.</p>
+                      <p class="card-hover-text pb-3 text-danger">support@carman.com</p>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </div>
+            </div>
+            <!-- Call Support Card -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3" data-aos="zoom-out" data-aos-duration="1000">
+                <div class="card py-2">
+                    <h1 class="text-danger m-3"><i class="bi bi-mic"></i></h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Call Support</h5>
+                      <p class="card-hover-text pb-3">Get the support you deserve—call us for expert help and friendly service. We're here for you!</p>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </div>
+            </div>
+            <!-- Testimonials Card -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="card py-2">
+                    <h1 class="text-danger m-3"><i class="bi bi-pencil-square"></i></h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Testimonials</h5>
+                      <p class="card-hover-text pb-3">Don't just take our word for it—read what our happy clients have to say about us!</p>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+     </section>
+    <!-- Information Cards End -->
+
+
+
+
+    <!-- Footer Start -->
+    <footer class="footer-section container-fluid bg-dark bg-opacity-75 pt-5">
+        <div class="container">
+          <div class="row">
+            <div class="footer-info col-12 col-sm-12 col-md-6 col-lg-6 text-white">
+              <div class="d-inline-block">
+                <img src="./Asserts/Images/logo.png" alt="Logo" class="img-fluid pb-1 border-bottom border-danger" width="100">
+                <p class="fs-5 mb-2 text-center">Car<span class="text-danger">MAN</span></p>
+              </div>
+              <p>Your trusted partner in automotive care, providing expert servicing and repairs to keep your vehicle running smoothly and safely on the road.</p>
+              <div class="footer-social-media my-2">
+                <button type="button" class="btn btn-outline-danger fs-5 rounded-circle text-white mx-1">
+                  <i class="bi bi-facebook"></i>
+                </button>
+                <button type="button" class="btn btn-outline-danger fs-5 rounded-circle text-white mx-1">
+                  <i class="bi bi-instagram"></i>
+                </button>
+                <button type="button" class="btn btn-outline-danger fs-5 rounded-circle text-white mx-1">
+                  <i class="bi bi-twitter-x"></i>
+                </button>
+                <button type="button" class="btn btn-outline-danger fs-5 rounded-circle text-white mx-1">
+                  <i class="bi bi-whatsapp"></i>
+                </button>
+                <button type="button" class="btn btn-outline-danger fs-5 rounded-circle text-white mx-1">
+                  <i class="bi bi-youtube"></i>
+                </button>
+              </div>
+              <p class="text-white"><i class="bi bi-geo pe-2 text-danger"></i>123 Street, Hyderabad, India</p>
+              <p><a href="" class="text-white link-underline-danger link-underline-opacity-0 link-offset-3-hover link-underline-opacity-75-hover"><i class="bi bi-envelope-at pe-2 text-danger"></i>support@carman.com</a></p>
+              <p><a href="" class="text-white link-underline-danger link-underline-opacity-0 link-offset-3-hover link-underline-opacity-75-hover"><i class="bi bi-telephone pe-2 text-danger"></i>+91 9123456789</a></p>
+            </div>
+            <div class="footer-links col-12 col-sm-12 col-md-3 col-lg-3 text-white">
+              <h5 class="fw-bold">KNOW MORE</h5>
+              <p>
+                <a href="" class="text-white link-danger link-underline-opacity-0 link-offset-3-hover link-underline-opacity-100-hover text-uppercase">About us</a>
+              </p>
+              <p>
+                <a href="" class="text-white link-danger link-underline-opacity-0 link-offset-3-hover link-underline-opacity-100-hover text-uppercase">Services</a>
+              </p>
+              <p>
+                <a href="" class="text-white link-danger link-underline-opacity-0 link-offset-3-hover link-underline-opacity-100-hover text-uppercase">Privacy policy</a>
+              </p>
+              <p>
+                <a href="" class="text-white link-danger link-underline-opacity-0 link-offset-3-hover link-underline-opacity-100-hover text-uppercase">contact us</a>
+              </p>
+              <p>
+                <a href="" class="text-white link-danger link-underline-opacity-0 link-offset-3-hover link-underline-opacity-100-hover text-uppercase">Blog</a>
+              </p>
+              <p>
+                <a href="" class="text-white link-danger link-underline-opacity-0 link-offset-3-hover link-underline-opacity-100-hover text-uppercase">FAQ</a>
+              </p>
+              <p>
+                <a href="" class="text-white link-danger link-underline-opacity-0 link-offset-3-hover link-underline-opacity-100-hover">Car<span class="text-danger">MAN</span> THE UNORIGINALS</a>
+              </p>
+            </div>
+            <div class="footer-brands col-12 col-sm-12 col-md-3 col-lg-3 text-white">
+              <h5 class="fw-bold">TOP BRANDS WE SERVICE</h5>
+              <p>AUDI</p>
+              <p>BMW</p>
+              <p>RENAULT</p>
+              <p>FORD</p>
+              <p>TOYOTA</p>
+              <p>CHEVROLET</p>
+              <p>MAHINDRA</p>
+              <p>HONDA</p>
+              <p>MARUTHI</p>
+            </div>
+        </div>
+        </div>
+        <div class="row text-white text-center text-opacity-75 bg-dark bg-dark py-2 border-top border-dark-subtle">
+          <small>COPYRIGHT &copy; 2024, CarMAN. All Rights Reserved.</small>
+        </div>
+    </footer>
+     <!-- Footer End -->
+  
+  
+  
+    <!-- AoS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+</body>
+</html>
